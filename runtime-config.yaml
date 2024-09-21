@@ -1,0 +1,4 @@
+build:
+  cuda_version: "12.1.1"
+  python_packages:
+    - "lmdeploy==0.5.3"
