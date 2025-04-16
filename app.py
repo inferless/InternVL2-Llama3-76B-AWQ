@@ -11,8 +11,9 @@ class InferlessPythonModel:
 
     def infer(self, inputs):
         image_url = inputs["image_url"]
+        prompt = inputs["prompt"]
         image = load_image(image_url)
-        response = self.pipe(('describe this image', image))
+        response = self.pipe((prompt, image))
         return {'response': response.text }
 
     def finalize(self):
