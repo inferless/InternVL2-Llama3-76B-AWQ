@@ -1,4 +1,4 @@
-# Tutorial - Deploy InternVL2-Llama3-76B-AWQ using Inferless
+# Deploy InternVL2-Llama3-76B-AWQ using Inferless
 
 InternVL2-Llama3-76B-AWQ is a 76-billion-parameter multimodal model that integrates advanced vision-language capabilities with Llama3’s powerful text generation. Leveraging AWQ quantization, it delivers efficient inference for diverse, complex visual and linguistic tasks.
 
