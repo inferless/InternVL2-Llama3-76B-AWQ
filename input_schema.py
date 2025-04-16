@@ -4,5 +4,11 @@ INPUT_SCHEMA = {
         'required': True,
         'shape': [1],
         'example': ["https://raw.githubusercontent.com/open-mmlab/mmdeploy/main/tests/data/tiger.jpeg"]
+    },
+    "prompt": {
+        'datatype': 'STRING',
+        'required': True,
+        'shape': [1],
+        'example': ["Describe this image."]
     }
 }
